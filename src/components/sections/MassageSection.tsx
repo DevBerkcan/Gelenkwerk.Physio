@@ -21,24 +21,6 @@ const MASSAGE_CONTENT = {
       { title: "45 Minuten", description: "Einzelsitzungspauschale", price: "CHF 114.50" },
       { title: "60 Minuten", description: "Einzelsitzungspauschale", price: "CHF 152.00" },
     ],
-    extrasTitle: "Weitere private Leistungen",
-    extras: [
-      {
-        title: "Verpasste Konsultation",
-        description: "30 Min / 45 Min / 60 Min",
-        price: "CHF 50.00 / 75.00 / 100.00",
-      },
-      {
-        title: "Tape",
-        description: "Tape L 5 m / B 5 cm (EKP pro 2.5 m)",
-        price: "CHF 8.90",
-      },
-      {
-        title: "Telefonische Auskunft / Aktenstudium / Arbeit in Abwesenheit",
-        description: "Administrative und therapeutische Arbeit",
-        price: "CHF 20.00",
-      },
-    ],
   },
   en: {
     label: "Private Service",
@@ -55,24 +37,6 @@ const MASSAGE_CONTENT = {
       { title: "30 minutes", description: "Single session flat rate", price: "CHF 77.00" },
       { title: "45 minutes", description: "Single session flat rate", price: "CHF 114.50" },
       { title: "60 minutes", description: "Single session flat rate", price: "CHF 152.00" },
-    ],
-    extrasTitle: "Additional private services",
-    extras: [
-      {
-        title: "Missed consultation",
-        description: "30 min / 45 min / 60 min",
-        price: "CHF 50.00 / 75.00 / 100.00",
-      },
-      {
-        title: "Tape",
-        description: "Tape L 5 m / W 5 cm (cost price per 2.5 m)",
-        price: "CHF 8.90",
-      },
-      {
-        title: "Phone consultation / record review / work in absence",
-        description: "Administrative and therapeutic work",
-        price: "CHF 20.00",
-      },
     ],
   },
 } as const;
@@ -150,30 +114,6 @@ export default function MassageSection({ onBooking }: MassageSectionProps) {
                   {item.description}
                 </div>
                 <div className="font-display text-[32px] text-teal">{item.price}</div>
-              </div>
-            </Reveal>
-          ))}
-        </div>
-
-        <Reveal delay={0.2}>
-          <h3 className="font-display text-[28px] text-brand-text mb-6">
-            {content.extrasTitle}
-          </h3>
-        </Reveal>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          {content.extras.map((item, index) => (
-            <Reveal key={item.title} delay={0.2 + index * 0.04}>
-              <div className="rounded-[22px] border border-teal-pale/80 bg-white/80 p-6">
-                <div className="font-body text-[11px] tracking-[0.16em] uppercase text-teal mb-2">
-                  {item.title}
-                </div>
-                <div className="font-body text-sm text-brand-muted mb-3">
-                  {item.description}
-                </div>
-                <div className="font-display text-[24px] text-brand-text">
-                  {item.price}
-                </div>
               </div>
             </Reveal>
           ))}
