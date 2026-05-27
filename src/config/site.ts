@@ -101,21 +101,21 @@ export const SERVICES: Service[] = [
 // ─── Stock Photos ───
 
 export const PHOTOS = {
-  hero: "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1400&q=80",
+  hero: "https://images.unsplash.com/photo-1645005512968-0c1fe99f0093?w=1400&q=80",
   physio1:
-    "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80",
+    "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&q=80",
   physio2:
-    "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80",
+    "https://images.unsplash.com/photo-1706353399656-210cca727a33?w=800&q=80",
   massage1:
-    "https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?w=800&q=80",
+    "https://images.unsplash.com/photo-1586401100295-7a8096fd231a?w=800&q=80",
   massage2:
-    "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&q=80",
+    "https://images.unsplash.com/photo-1741522509438-a120c0bb5e88?w=800&q=80",
   about:
-    "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=1400&q=80",
+    "https://images.unsplash.com/photo-1649751361457-01d3a696c7e6?w=1400&q=80",
   contact:
-    "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=80",
+    "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&q=80",
   wellness:
-    "https://images.unsplash.com/photo-1540555700478-4be289fbec6e?w=800&q=80",
+    "https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=800&q=80",
 } as const;
 
 // ─── Booking Time Slots ───

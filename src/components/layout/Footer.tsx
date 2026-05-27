@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { GelenkwerkLogo } from "@/components/ui";
 import { NAV_ITEMS, CONTACT } from "@/config/site";
 import { useLanguage } from "@/context/LanguageContext";
@@ -96,11 +97,11 @@ export default function Footer({ onNavigate, onBooking }: FooterProps) {
               <Image
                 src="/swiss_logo_transparent.png"
                 alt="Physioswiss Logo"
-                width={96}
-                height={31}
-                className="h-10 w-auto object-contain"
+                width={120}
+                height={40}
+                className="h-14 w-auto object-contain"
               />
-              <span className="pb-1 font-body text-[11px] tracking-[0.12em] uppercase text-white/45">
+              <span className="pb-1 font-body text-[13px] tracking-[0.12em] uppercase text-white/55">
                 {t.footer.member}
               </span>
             </div>
@@ -109,12 +110,12 @@ export default function Footer({ onNavigate, onBooking }: FooterProps) {
             </span>
           </div>
           <div className="flex gap-5">
-            <a href="#" className="font-body text-xs text-white/30 no-underline hover:text-white/60 transition-colors">
+            <Link href="/impressum" className="font-body text-xs text-white/30 no-underline hover:text-white/60 transition-colors">
               {t.footer.imprint}
-            </a>
-            <a href="#" className="font-body text-xs text-white/30 no-underline hover:text-white/60 transition-colors">
+            </Link>
+            <Link href="/datenschutz" className="font-body text-xs text-white/30 no-underline hover:text-white/60 transition-colors">
               {t.footer.privacy}
-            </a>
+            </Link>
           </div>
         </div>
       </div>

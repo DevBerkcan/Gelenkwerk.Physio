@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { SITE_CONFIG } from "@/config/site";
 import { LanguageProvider } from "@/context/LanguageContext";
+import CookieBanner from "@/components/CookieBanner";
+import AnalyticsLoader from "@/components/AnalyticsLoader";
 import "@/styles/globals.css";
 
 export const metadata: Metadata = {
@@ -50,16 +51,13 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="antialiased"><LanguageProvider>{children}</LanguageProvider></body>
-      <Script id="microsoft-clarity" strategy="afterInteractive">
-        {`
-          (function(c,l,a,r,i,t,y){
-              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-          })(window, document, "clarity", "script", "wu4e1i9bsi");
-        `}
-      </Script>
+      <body className="antialiased">
+        <LanguageProvider>
+          {children}
+          <CookieBanner />
+          <AnalyticsLoader />
+        </LanguageProvider>
+      </body>
     </html>
   );
 }
