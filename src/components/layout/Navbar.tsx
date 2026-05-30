@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import { motion, useScroll, useTransform, useMotionValueEvent } from "framer-motion";
+import { Phone } from "lucide-react";
 import { GelenkwerkLogo } from "@/components/ui";
-import { NAV_ITEMS } from "@/config/site";
+import { NAV_ITEMS, CONTACT } from "@/config/site";
 import { useLanguage } from "@/context/LanguageContext";
 
 interface NavbarProps {
@@ -57,22 +58,22 @@ export default function Navbar({ activeSection, onNavigate, onBooking }: NavbarP
         style={{ opacity: navBorderOpacity }}
       />
 
-      <div className="max-w-[1200px] mx-auto px-6 relative flex items-center">
+      <div className="max-w-[1440px] mx-auto px-8 relative flex items-center">
         {/* Logo — links */}
         <button
           onClick={() => onNavigate("home")}
           className="flex items-center cursor-pointer bg-transparent border-none flex-shrink-0"
         >
-          <GelenkwerkLogo size={52} />
+          <GelenkwerkLogo size={68} />
         </button>
 
         {/* Desktop Nav-Items — absolut zentriert */}
-        <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center gap-6">
+        <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 items-center gap-10">
           {NAV_ITEMS.map((item, i) => (
             <button
               key={item.id}
               onClick={() => onNavigate(item.id)}
-              className={`relative bg-transparent border-none cursor-pointer font-body text-[13.5px] tracking-wide py-1.5 transition-all duration-300 ${
+              className={`relative bg-transparent border-none cursor-pointer font-body text-[14px] tracking-wide py-1.5 transition-all duration-300 ${
                 navTextColor(activeSection === item.id)
               } ${activeSection === item.id ? "font-bold" : "font-normal"}`}
             >
@@ -88,8 +89,17 @@ export default function Navbar({ activeSection, onNavigate, onBooking }: NavbarP
           ))}
         </div>
 
-        {/* Rechts: DE/EN + Termin buchen */}
+        {/* Rechts: Telefon + DE/EN + Termin buchen */}
         <div className="ml-auto hidden md:flex items-center gap-4">
+          <a
+            href={`tel:${CONTACT.phone[1].replace(/\s/g, "")}`}
+            className={`flex items-center gap-1.5 font-body text-[13px] font-semibold no-underline transition-colors duration-300 ${
+              isScrolled ? "text-brand-muted hover:text-teal" : "text-white/80 hover:text-white"
+            }`}
+          >
+            <Phone size={14} />
+            {CONTACT.phone[1]}
+          </a>
           <div className="flex items-center gap-1 font-body text-[12px] tracking-wider">
             <button
               onClick={() => setLang("de")}

@@ -63,14 +63,14 @@ export default function HeroSection({ onNavigate, onBooking }: HeroSectionProps)
           Gelenkwerk
         </motion.h1>
 
-        <motion.p
+        <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, ease, delay: 0.4 }}
           className="font-body text-[clamp(14px,2.2vw,20px)] text-white/80 tracking-[6px] uppercase mb-10 font-light"
         >
           {t.hero.subtitle}
-        </motion.p>
+        </motion.h2>
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}

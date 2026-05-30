@@ -131,6 +131,8 @@ export default function PhysioSection({ onBooking }: PhysioSectionProps) {
           <div
             className="absolute inset-0 bg-cover bg-center transition-transform duration-[6s] hover:scale-105"
             style={{ backgroundImage: `url(${PHOTOS.physio1})` }}
+            role="img"
+            aria-label="Physiotherapeutin bei der Behandlung eines Patienten"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-cream md:block hidden" />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-cream md:hidden" />

@@ -14,6 +14,7 @@ import {
   AboutSection,
   CredentialsSection,
   BewertungenSection,
+  FaqSection,
   KontaktSection,
   BlogSection,
 } from "@/components/sections";
@@ -45,6 +46,7 @@ export default function HomePage() {
         <AboutSection />
         <CredentialsSection />
         <BewertungenSection />
+        <FaqSection />
         <KontaktSection onBooking={openBooking} />
         <BlogSection />
       </main>

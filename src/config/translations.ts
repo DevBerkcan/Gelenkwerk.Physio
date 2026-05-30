@@ -13,7 +13,7 @@ export const translations = {
     },
     hero: {
       location: "Praxis Elisabethen · Basel",
-      subtitle: "Physiotherapie & Massage",
+      subtitle: "Physiotherapie & Massage in Basel",
       description:
         "Individuelle physiotherapeutische Behandlungen und therapeutische Massagen — für Ihre Gesundheit und Ihr Wohlbefinden.",
       book: "Termin buchen",
@@ -152,6 +152,36 @@ export const translations = {
       instagram: "Instagram ansehen",
       book: "Online Termin buchen",
     },
+    faq: {
+      label: "Häufige Fragen",
+      title: "FAQ",
+      items: [
+        {
+          q: "Benötige ich eine ärztliche Verordnung?",
+          a: "Für Physiotherapie zu Lasten der Grundversicherung (KVG) ist eine ärztliche Verordnung erforderlich. Für Privatleistungen wie klassische Massagen ist kein Rezept nötig — Sie können direkt einen Termin buchen.",
+        },
+        {
+          q: "Werden die Kosten von der Krankenkasse übernommen?",
+          a: "Mit ärztlicher Verordnung übernimmt die Grundversicherung (KVG, UVG, IV, MV) die physiotherapeutischen Behandlungen nach Tarif. Klassische Massagen sind Privatleistungen und werden nicht von der Grundversicherung gedeckt.",
+        },
+        {
+          q: "Bieten Sie Hausbesuche an?",
+          a: "Ja. Für Patientinnen und Patienten, die die Praxis nicht aufsuchen können, führen wir Domizilbehandlungen durch. Es fällt ein Fahrkostenzuschlag von CHF 40.00 an.",
+        },
+        {
+          q: "Wie lange dauert eine Behandlung?",
+          a: "Eine Standard-Physiotherapie dauert ca. 25 Minuten, eine aufwändige Therapie ca. 40 Minuten. Massagen bieten wir in 30-, 45- und 60-Minuten-Einheiten an — je nach Ihren Bedürfnissen.",
+        },
+        {
+          q: "Was ist der Unterschied zwischen Physiotherapie und Massage?",
+          a: "Physiotherapie ist eine medizinische Behandlung mit Rezept und wird von der Krankenkasse übernommen. Sie zielt auf Rehabilitation, Schmerzreduktion und Funktionsverbesserung. Die klassische Massage ist eine Privatleistung zur Entspannung der Muskulatur und Förderung der Durchblutung.",
+        },
+        {
+          q: "Wie kann ich einen Termin buchen?",
+          a: "Sie können online über unser Buchungssystem buchen, uns telefonisch unter +41 76 624 58 50 erreichen oder eine E-Mail an info@gelenkwerk.ch senden. Termine sind nach Vereinbarung möglich.",
+        },
+      ],
+    },
     footer: {
       tagline: "Ihre Praxis für Physiotherapie und Massage in Basel.",
       navigation: "Navigation",
@@ -176,7 +206,7 @@ export const translations = {
     },
     hero: {
       location: "Praxis Elisabethen · Basel",
-      subtitle: "Physiotherapy & Massage",
+      subtitle: "Physiotherapy & Massage in Basel",
       description:
         "Individual physiotherapeutic treatments and therapeutic massages — for your health and well-being.",
       book: "Book appointment",
@@ -314,6 +344,36 @@ export const translations = {
       byAppointment: "Appointments by arrangement",
       instagram: "View on Instagram",
       book: "Book online appointment",
+    },
+    faq: {
+      label: "Frequently Asked Questions",
+      title: "FAQ",
+      items: [
+        {
+          q: "Do I need a medical prescription?",
+          a: "For physiotherapy covered by basic health insurance (KVG), a medical prescription is required. For private services like classical massage, no prescription is needed — you can book directly.",
+        },
+        {
+          q: "Are costs covered by health insurance?",
+          a: "With a medical prescription, basic insurance (KVG, UVG, IV, MV) covers physiotherapy treatments according to the tariff. Classical massage is a private service and is not covered by basic insurance.",
+        },
+        {
+          q: "Do you offer home visits?",
+          a: "Yes. For patients who cannot visit the practice, we provide home visits (Domizilbehandlungen). A travel surcharge of CHF 40.00 applies.",
+        },
+        {
+          q: "How long does a treatment take?",
+          a: "Standard physiotherapy takes approx. 25 minutes, and extended therapy approx. 40 minutes. Massage sessions are available in 30, 45 or 60-minute units — depending on your needs.",
+        },
+        {
+          q: "What is the difference between physiotherapy and massage?",
+          a: "Physiotherapy is a medical treatment requiring a prescription and covered by health insurance. It targets rehabilitation, pain reduction and functional improvement. Classical massage is a private service for muscle relaxation and improved circulation.",
+        },
+        {
+          q: "How can I book an appointment?",
+          a: "You can book online via our booking system, call us at +41 76 624 58 50, or send an email to info@gelenkwerk.ch. Appointments are available by arrangement.",
+        },
+      ],
     },
     footer: {
       tagline: "Your practice for physiotherapy and massage in Basel.",

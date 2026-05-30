@@ -1,7 +1,7 @@
 "use client";
 
 import { Reveal, GelenkwerkLogo } from "@/components/ui";
-import { CONTACT } from "@/config/site";
+import { CONTACT, BOOKING_CONFIG } from "@/config/site";
 import { MapPin, Phone, Clock, Instagram } from "lucide-react";
 import { useLanguage } from "@/context/LanguageContext";
 
@@ -27,6 +27,11 @@ export default function KontaktSection({ onBooking }: KontaktSectionProps) {
       icon: Clock,
       title: t.contact.appointment,
       content: t.contact.byAppointment,
+      hours: [
+        { label: "Mo–Fr", time: `${BOOKING_CONFIG.weekdayStart}:00–${BOOKING_CONFIG.weekdayEnd}:00 Uhr` },
+        { label: "Samstag", time: `${BOOKING_CONFIG.saturdayStart}:00–${BOOKING_CONFIG.saturdayEnd}:00 Uhr` },
+        { label: "Sonntag", time: "Geschlossen" },
+      ],
     },
   ];
 
@@ -83,6 +88,18 @@ export default function KontaktSection({ onBooking }: KontaktSectionProps) {
                                 {phone}
                               </a>
                             ))}
+                          </div>
+                        ) : item.hours ? (
+                          <div>
+                            <div className="font-body text-sm text-brand-muted mb-1">{item.content}</div>
+                            <div className="mt-1 space-y-0.5">
+                              {item.hours.map((h) => (
+                                <div key={h.label} className="flex gap-2 font-body text-[13px]">
+                                  <span className="text-brand-text font-semibold w-16 shrink-0">{h.label}</span>
+                                  <span className="text-brand-muted">{h.time}</span>
+                                </div>
+                              ))}
+                            </div>
                           </div>
                         ) : (
                           <div className="font-body text-sm text-brand-muted leading-relaxed whitespace-pre-line">

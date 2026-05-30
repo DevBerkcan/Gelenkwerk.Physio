@@ -10,7 +10,7 @@ export const SITE_CONFIG = {
     "Individuelle physiotherapeutische Behandlungen und therapeutische Massagen in Basel.",
   url: "https://www.gelenkwerk.ch",
   bookingUrl:
-    "https://www.tbooking.ch/de/book/4743-6727?embedded=true&primary-color=cb4f53&secondary-color=0274be",
+    "https://www.tbooking.ch/de/book/4743-6727?embedded=true&primary-color=9d5151&secondary-color=0274be",
 } as const;
 
 // ─── Contact Information ───
@@ -106,14 +106,10 @@ export const PHOTOS = {
     "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800&q=80",
   physio2:
     "https://images.unsplash.com/photo-1706353399656-210cca727a33?w=800&q=80",
-  massage1:
-    "https://images.unsplash.com/photo-1586401100295-7a8096fd231a?w=800&q=80",
-  massage2:
-    "https://images.unsplash.com/photo-1741522509438-a120c0bb5e88?w=800&q=80",
-  about:
-    "https://images.unsplash.com/photo-1649751361457-01d3a696c7e6?w=1400&q=80",
-  contact:
-    "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=800&q=80",
+  massage1: "/massage.jpeg",
+  massage2: "/massage.jpeg",
+  about: "/office.jpeg",
+  contact: "/office.jpeg",
   wellness:
     "https://images.unsplash.com/photo-1519824145371-296894a0daa9?w=800&q=80",
 } as const;

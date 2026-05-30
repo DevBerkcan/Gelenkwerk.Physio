@@ -32,7 +32,7 @@ export default function Footer({ onNavigate, onBooking }: FooterProps) {
             <div className="flex items-center gap-2.5 mb-4">
               <GelenkwerkLogo size={28} />
               <span className="font-display text-lg font-semibold text-white">
-                Gelenkwerk
+               
               </span>
             </div>
             <p className="font-body text-[13px] text-white/50 leading-relaxed mb-4">

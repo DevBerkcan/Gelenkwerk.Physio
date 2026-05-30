@@ -50,6 +50,49 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Nunito+Sans:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Gelenkwerk Physiotherapie",
+              "image": "https://www.gelenkwerk.ch/logoo_transparent.png",
+              "url": "https://www.gelenkwerk.ch",
+              "telephone": "+41612205000",
+              "email": "info@gelenkwerk.ch",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Elisabethenstrasse 41",
+                "addressLocality": "Basel",
+                "postalCode": "4051",
+                "addressCountry": "CH"
+              },
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                  "opens": "08:00",
+                  "closes": "18:00"
+                },
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": "Saturday",
+                  "opens": "09:00",
+                  "closes": "14:00"
+                }
+              ],
+              "priceRange": "CHF 77–152",
+              "areaServed": "Basel",
+              "sameAs": ["https://www.instagram.com/gelenkwerk/"],
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5",
+                "reviewCount": "3"
+              }
+            }),
+          }}
+        />
       </head>
       <body className="antialiased">
         <LanguageProvider>

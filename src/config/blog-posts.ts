@@ -28,7 +28,7 @@ export const BLOG_POSTS: BlogPost[] = [
     date: "2026-01-20",
     readTime: 5,
     category: "physio",
-    image: PHOTOS.physio1,
+    image: "/Rückenschmerzem.jpeg",
     de: {
       title: "Rückenschmerzen: Was wirklich hilft — Physiotherapie in Basel",
       excerpt:
@@ -114,7 +114,7 @@ export const BLOG_POSTS: BlogPost[] = [
     date: "2026-02-10",
     readTime: 6,
     category: "lymph",
-    image: PHOTOS.physio2,
+    image: "/Lymphdrenage.jpeg",
     de: {
       title: "Manuelle Lymphdrainage: Wirkung, Anwendung und Ablauf",
       excerpt:
