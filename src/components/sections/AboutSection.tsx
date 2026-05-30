@@ -38,7 +38,7 @@ export default function AboutSection() {
               />
               <div className="absolute bottom-0 left-0 right-0 p-8 pt-8 bg-gradient-to-t from-brand-dark/80 to-transparent">
                 <div className="font-display text-[22px] text-white font-medium">
-                  Kiriaki Chatzidimitriadou
+                  Kyriaki Chatzidimitriadou
                 </div>
                 <div className="font-body text-[13px] text-white/70">
                   {t.about.role}

@@ -174,10 +174,11 @@ export default function DatenschutzPage() {
             Sollten Sie einen Termin nicht wahrnehmen können, bitten wir um rechtzeitige Stornierung
             mindestens 24 Stunden im Voraus per E-Mail oder telefonisch unter{" "}
             <a href="tel:+41764621172" className="text-teal hover:underline">076 462 11 72</a>.
-            Bei kurzfristigen Absagen behalten wir uns vor, eine Ausfallgebühr von CHF 80.00 zu
-            erheben. Der Kunde / Patient hat den Ausfall eines von ihm versäumten Behandlungstermins
-            zum vereinbarten Teilhonorar an den Leistungserbringer Gelenkwerk Physiotherapie zu
-            entrichten. Hierfür erhält er eine gesonderte Rechnung.
+            Bei kurzfristigen Absagen behalten wir uns vor, eine Ausfallgebühr zu erheben
+            (30 Min. CHF 50.00 / 45 Min. CHF 75.00 / 60 Min. CHF 100.00). Der Kunde / Patient
+            hat den Ausfall eines von ihm versäumten Behandlungstermins zum vereinbarten
+            Teilhonorar an den Leistungserbringer Gelenkwerk Physiotherapie zu entrichten.
+            Hierfür erhält er eine gesonderte Rechnung.
           </p>
         </Section>
 

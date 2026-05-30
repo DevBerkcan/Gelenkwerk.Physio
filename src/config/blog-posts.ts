@@ -123,7 +123,7 @@ export const BLOG_POSTS: BlogPost[] = [
       content: `
 <h2>Was ist manuelle Lymphdrainage?</h2>
 <p>Die manuelle Lymphdrainage ist eine sanfte Massagetechnik, die das Lymphsystem anregt und überschüssige Gewebsflüssigkeit aus dem Körper ableitet. Die Behandlung gehört zur sogenannten Komplexen Physikalischen Entstauungstherapie (KPE) und wird von qualifizierten Physiotherapeutinnen durchgeführt.</p>
-<p>In der Praxis Gelenkwerk in Basel führt Kiriaki Chatzidimitriadou die Lymphdrainage mit einer speziellen Ausbildung und Urkunde durch.</p>
+<p>In der Praxis Gelenkwerk in Basel führt Kyriaki Chatzidimitriadou die Lymphdrainage mit einer speziellen Ausbildung und Urkunde durch.</p>
 
 <h2>Wie wirkt die Lymphdrainage?</h2>
 <p>Durch kreisförmige, sehr sanfte Grifftechniken wird die Haut leicht verschoben. Damit wird die Pumpleistung der Lymphgefässe angeregt — ähnlich wie ein natürlicher Rückfluss. Die Wirkung ist:</p>
@@ -155,7 +155,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Manuelle Lymphdrainage wird bei ärztlicher Verordnung von der Grundversicherung in der Schweiz übernommen. Informieren Sie sich vorab bei Ihrer Krankenkasse über die Konditionen.</p>
 
 <h2>Termin vereinbaren in Basel</h2>
-<p>Brauchen Sie manuelle Lymphdrainage in Basel? Unsere zertifizierte Therapeutin Kiriaki Chatzidimitriadou steht Ihnen gerne zur Verfügung. Vereinbaren Sie jetzt Ihren Termin in der Praxis Gelenkwerk, Elisabethenstrasse 41, Basel.</p>
+<p>Brauchen Sie manuelle Lymphdrainage in Basel? Unsere zertifizierte Therapeutin Kyriaki Chatzidimitriadou steht Ihnen gerne zur Verfügung. Vereinbaren Sie jetzt Ihren Termin in der Praxis Gelenkwerk, Elisabethenstrasse 41, Basel.</p>
       `.trim(),
     },
     en: {
@@ -166,7 +166,7 @@ export const BLOG_POSTS: BlogPost[] = [
       content: `
 <h2>What Is Manual Lymphatic Drainage?</h2>
 <p>Manual lymphatic drainage is a gentle massage technique that stimulates the lymphatic system and drains excess tissue fluid from the body. The treatment is part of Complex Physical Decongestive Therapy (CDT) and is performed by qualified physiotherapists.</p>
-<p>At Gelenkwerk practice in Basel, Kiriaki Chatzidimitriadou performs lymphatic drainage with a specialist certification.</p>
+<p>At Gelenkwerk practice in Basel, Kyriaki Chatzidimitriadou performs lymphatic drainage with a specialist certification.</p>
 
 <h2>How Does Lymphatic Drainage Work?</h2>
 <p>Through circular, very gentle hand movements, the skin is lightly shifted. This stimulates the pumping capacity of the lymphatic vessels — similar to a natural backflow. The effects are:</p>
@@ -192,7 +192,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>A lymphatic drainage session typically lasts 30 to 45 minutes. Treatment takes place lying down; the movements are very gentle — barely perceptible but highly effective. Many patients experience deep relaxation or even fall asleep.</p>
 
 <h2>Book an Appointment in Basel</h2>
-<p>Need manual lymphatic drainage in Basel? Our certified therapist Kiriaki Chatzidimitriadou is happy to help. Book your appointment now at Gelenkwerk practice, Elisabethenstrasse 41, Basel.</p>
+<p>Need manual lymphatic drainage in Basel? Our certified therapist Kyriaki Chatzidimitriadou is happy to help. Book your appointment now at Gelenkwerk practice, Elisabethenstrasse 41, Basel.</p>
       `.trim(),
     },
   },
@@ -235,10 +235,10 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>Massagen im Gelenkwerk Basel: individuell angepasst</h2>
 <p>In unserer Praxis an der Elisabethenstrasse 41 in Basel passen wir jede Massage individuell an Ihre Bedürfnisse an. Wir unterscheiden:</p>
 <ul>
-  <li><strong>30-Minuten-Massage:</strong> Ideal für gezielte Problemzonen (CHF 60.–)</li>
-  <li><strong>60-Minuten-Massage:</strong> Ganzkörper-Behandlung zur tiefen Entspannung und Regeneration (CHF 120.–)</li>
+  <li><strong>30-Minuten-Massage:</strong> Ideal für gezielte Problemzonen (CHF 77.00)</li>
+  <li><strong>45-Minuten-Massage:</strong> Ausgewogene Ganzkörperbehandlung (CHF 114.50)</li>
+  <li><strong>60-Minuten-Massage:</strong> Ganzkörper-Behandlung zur tiefen Entspannung und Regeneration (CHF 152.00)</li>
 </ul>
-<p>Beide Optionen gibt es auch als 10er-Karte mit attraktivem Rabatt.</p>
 
 <h2>Massage als Ergänzung zur Physiotherapie</h2>
 <p>Besonders wirkungsvoll ist Massage in Kombination mit Physiotherapie. Die Massage bereitet die Muskulatur auf therapeutische Übungen vor oder fördert nach intensiven Behandlungen die Regeneration. Diese Kombination bieten wir in der Praxis Gelenkwerk gezielt an.</p>
@@ -247,7 +247,7 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Medizinische Massagen können bei ärztlicher Verschreibung über die Zusatzversicherung oder Krankenkasse abgerechnet werden. Informieren Sie sich vorab bei Ihrer Versicherung. Wellness-Massagen werden in der Regel privat bezahlt.</p>
 
 <h2>Jetzt Massagetermin buchen in Basel</h2>
-<p>Gönnen Sie sich eine wohltuende und wirksame Massage in Basel. Unsere Therapeutin Kiriaki Chatzidimitriadou empfängt Sie in der Praxis Gelenkwerk, Elisabethenstrasse 41, 4051 Basel.</p>
+<p>Gönnen Sie sich eine wohltuende und wirksame Massage in Basel. Unsere Therapeutin Kyriaki Chatzidimitriadou empfängt Sie in der Praxis Gelenkwerk, Elisabethenstrasse 41, 4051 Basel.</p>
       `.trim(),
     },
     en: {
@@ -282,12 +282,13 @@ export const BLOG_POSTS: BlogPost[] = [
 <h2>Massages at Gelenkwerk Basel: Individually Tailored</h2>
 <p>At our practice on Elisabethenstrasse 41 in Basel, every massage is individually adapted to your needs:</p>
 <ul>
-  <li><strong>30-minute massage:</strong> Ideal for targeted problem areas (CHF 60.–)</li>
-  <li><strong>60-minute massage:</strong> Full-body treatment for deep relaxation (CHF 120.–)</li>
+  <li><strong>30-minute massage:</strong> Ideal for targeted problem areas (CHF 77.00)</li>
+  <li><strong>45-minute massage:</strong> Balanced full-body treatment (CHF 114.50)</li>
+  <li><strong>60-minute massage:</strong> Full-body treatment for deep relaxation (CHF 152.00)</li>
 </ul>
 
 <h2>Book a Massage Appointment in Basel</h2>
-<p>Treat yourself to a soothing and effective massage in Basel. Our therapist Kiriaki Chatzidimitriadou welcomes you at Gelenkwerk practice, Elisabethenstrasse 41, 4051 Basel.</p>
+<p>Treat yourself to a soothing and effective massage in Basel. Our therapist Kyriaki Chatzidimitriadou welcomes you at Gelenkwerk practice, Elisabethenstrasse 41, 4051 Basel.</p>
       `.trim(),
     },
   },

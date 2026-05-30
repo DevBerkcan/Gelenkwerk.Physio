@@ -128,7 +128,7 @@ export const translations = {
         {
           name: "Sandra M.",
           treatment: "Physiotherapie",
-          quote: "Nach meinem Bandscheibenvorfall war ich wirklich verzweifelt. Die Behandlung bei Kiriaki hat mir unglaublich geholfen — nach wenigen Wochen war ich wieder schmerzfrei. Sehr einfühlsam und kompetent.",
+          quote: "Nach meinem Bandscheibenvorfall war ich wirklich verzweifelt. Die Behandlung bei Kyriaki hat mir unglaublich geholfen — nach wenigen Wochen war ich wieder schmerzfrei. Sehr einfühlsam und kompetent.",
         },
         {
           name: "Thomas R.",
@@ -138,7 +138,7 @@ export const translations = {
         {
           name: "Maria K.",
           treatment: "Massage & Physiotherapie",
-          quote: "Ich komme seit über zwei Jahren regelmässig zu Kiriaki. Die Kombination aus Massage und Physiotherapie hilft mir enorm bei meinen chronischen Nackenproblemen. Absolut empfehlenswert!",
+          quote: "Ich komme seit über zwei Jahren regelmässig zu Kyriaki. Die Kombination aus Massage und Physiotherapie hilft mir enorm bei meinen chronischen Nackenproblemen. Absolut empfehlenswert!",
         },
       ],
     },
@@ -321,7 +321,7 @@ export const translations = {
         {
           name: "Sandra M.",
           treatment: "Physiotherapy",
-          quote: "After my herniated disc I was truly desperate. The treatment with Kiriaki helped me enormously — after a few weeks I was pain-free. Very empathetic and competent.",
+          quote: "After my herniated disc I was truly desperate. The treatment with Kyriaki helped me enormously — after a few weeks I was pain-free. Very empathetic and competent.",
         },
         {
           name: "Thomas R.",
@@ -331,7 +331,7 @@ export const translations = {
         {
           name: "Maria K.",
           treatment: "Massage & Physiotherapy",
-          quote: "I have been coming to Kiriaki regularly for over two years. The combination of massage and physiotherapy helps me enormously with my chronic neck problems. Highly recommended!",
+          quote: "I have been coming to Kyriaki regularly for over two years. The combination of massage and physiotherapy helps me enormously with my chronic neck problems. Highly recommended!",
         },
       ],
     },

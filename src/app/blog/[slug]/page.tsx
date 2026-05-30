@@ -30,7 +30,7 @@ export async function generateMetadata({
       url,
       type: "article",
       publishedTime: post.date,
-      authors: ["Kiriaki Chatzidimitriadou"],
+      authors: ["Kyriaki Chatzidimitriadou"],
       siteName: SITE_CONFIG.fullName,
       images: [{ url: post.image, alt: post.de.title }],
     },
@@ -70,7 +70,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     inLanguage: "de-CH",
     author: {
       "@type": "Person",
-      name: "Kiriaki Chatzidimitriadou",
+      name: "Kyriaki Chatzidimitriadou",
       jobTitle: "Dipl. Physiotherapeutin",
     },
     publisher: {
@@ -146,7 +146,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               {post.readTime} Min. Lesezeit
             </span>
             <span className="text-brand-muted/30">·</span>
-            <span>Kiriaki Chatzidimitriadou</span>
+            <span>Kyriaki Chatzidimitriadou</span>
           </div>
         </header>
 

@@ -26,5 +26,29 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "yearly",
       priority: 0.3,
     },
+    {
+      url: "https://www.gelenkwerk.ch/blog",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.7,
+    },
+    {
+      url: "https://www.gelenkwerk.ch/blog/rueckenschmerzen-physiotherapie-basel",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
+      url: "https://www.gelenkwerk.ch/blog/manuelle-lymphdrainage-wirkung-anwendung",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
+    {
+      url: "https://www.gelenkwerk.ch/blog/massage-mehr-als-entspannung-basel",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.6,
+    },
   ];
 }
