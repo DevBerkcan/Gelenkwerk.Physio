@@ -2,7 +2,6 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { PHOTOS } from "@/config/site";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function ParallaxDivider() {
@@ -24,9 +23,9 @@ export default function ParallaxDivider() {
   return (
     <div ref={ref} className="relative h-[320px] overflow-hidden">
       <motion.div
-        className="absolute inset-x-0 bg-cover bg-center"
+        className="absolute inset-x-0 bg-cover bg-[center_40%]"
         style={{
-          backgroundImage: `url(${PHOTOS.physio2})`,
+          backgroundImage: "url(/bewegen.jpg)",
           y,
           top: "-15%",
           bottom: "-15%",
