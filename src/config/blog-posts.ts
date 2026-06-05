@@ -28,7 +28,7 @@ export const BLOG_POSTS: BlogPost[] = [
     date: "2026-01-20",
     readTime: 5,
     category: "physio",
-    image: "/Rückenschmerzem.jpeg",
+    image: "/rueckenschmerzen.jpeg",
     de: {
       title: "Rückenschmerzen: Was wirklich hilft — Physiotherapie in Basel",
       excerpt:
