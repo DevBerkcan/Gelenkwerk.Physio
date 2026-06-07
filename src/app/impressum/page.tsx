@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Impressum — Gelenkwerk Physiotherapie",
+  title: "Impressum | Gelenkwerk Physiotherapie Basel",
+  description: "Impressum der Praxis Gelenkwerk Physiotherapie, Elisabethenstrasse 41, 4051 Basel. Betreiberin: Kyriaki Chatzidimitriadou, dipl. Physiotherapeutin.",
+  alternates: { canonical: "https://www.gelenkwerk.ch/impressum" },
+  robots: { index: false, follow: false },
 };
 
 export default function ImpressumPage() {

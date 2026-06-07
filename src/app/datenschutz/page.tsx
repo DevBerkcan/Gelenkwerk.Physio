@@ -2,7 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Datenschutz — Gelenkwerk Physiotherapie",
+  title: "Datenschutzerklärung | Gelenkwerk Physiotherapie Basel",
+  description: "Datenschutzerklärung der Praxis Gelenkwerk Physiotherapie Basel gemäss Schweizer Datenschutzgesetz (DSG).",
+  alternates: { canonical: "https://www.gelenkwerk.ch/datenschutz" },
+  robots: { index: false, follow: false },
 };
 
 function Section({ number, title, children }: { number?: string; title: string; children: React.ReactNode }) {

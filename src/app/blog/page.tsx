@@ -5,24 +5,47 @@ import { BLOG_POSTS } from "@/config/blog-posts";
 import { GelenkwerkLogo } from "@/components/ui";
 import { ChevronLeft } from "lucide-react";
 import BlogCard from "@/components/blog/BlogCard";
+import { buildBreadcrumbSchema } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: `Blog & Ratgeber | ${SITE_CONFIG.name} Basel`,
+  title: "Blog & Ratgeber — Physiotherapie, Massage & Gesundheit Basel | Gelenkwerk",
   description:
-    "Informationen rund um Physiotherapie, Massage und Lymphdrainage in Basel. Ratgeber und Fachbeiträge von Gelenkwerk Physiotherapie.",
+    "Fachbeiträge zu Physiotherapie, Massage und Lymphdrainage aus der Praxis Gelenkwerk Basel. Tipps bei Rückenschmerzen, Lymphödem und Muskelverspannungen.",
   alternates: { canonical: `${SITE_CONFIG.url}/blog` },
   openGraph: {
-    title: `Blog & Ratgeber | Gelenkwerk Physiotherapie Basel`,
+    title: "Blog & Ratgeber — Physiotherapie Basel | Gelenkwerk",
     description:
-      "Informationen rund um Physiotherapie, Massage und Lymphdrainage in Basel.",
+      "Fachbeiträge zu Rückenschmerzen, Lymphdrainage, Massage und Gesundheit aus der Praxis Gelenkwerk Basel.",
     url: `${SITE_CONFIG.url}/blog`,
     type: "website",
   },
 };
 
 export default function BlogPage() {
+  const breadcrumb = buildBreadcrumbSchema([
+    { name: "Home", url: SITE_CONFIG.url },
+    { name: "Blog & Ratgeber", url: `${SITE_CONFIG.url}/blog` },
+  ]);
+
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Blog & Ratgeber — Gelenkwerk Physiotherapie Basel",
+    description: "Fachbeiträge zu Physiotherapie, Massage und Lymphdrainage.",
+    url: `${SITE_CONFIG.url}/blog`,
+    hasPart: BLOG_POSTS.map((p) => ({
+      "@type": "BlogPosting",
+      headline: p.de.title,
+      url: `${SITE_CONFIG.url}/blog/${p.slug}`,
+      datePublished: p.date,
+      image: p.image.startsWith("/") ? `${SITE_CONFIG.url}${p.image}` : p.image,
+    })),
+  };
+
   return (
     <div className="min-h-screen bg-cream font-body">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
       {/* Simple Top Bar */}
       <header className="bg-white border-b border-teal-pale py-4 px-6 sticky top-0 z-50">
         <div className="max-w-[1100px] mx-auto flex items-center justify-between">

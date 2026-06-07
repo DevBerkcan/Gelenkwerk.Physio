@@ -5,6 +5,7 @@ import { SITE_CONFIG, CONTACT } from "@/config/site";
 import { BLOG_POSTS, getPostBySlug, BlogCategory } from "@/config/blog-posts";
 import { GelenkwerkLogo } from "@/components/ui";
 import { ChevronLeft, Clock, Calendar, ArrowRight } from "lucide-react";
+import { buildBreadcrumbSchema } from "@/lib/schema";
 
 export async function generateStaticParams() {
   return BLOG_POSTS.map((post) => ({ slug: post.slug }));
@@ -93,13 +94,16 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
   const otherPosts = BLOG_POSTS.filter((p) => p.slug !== post.slug);
 
+  const breadcrumb = buildBreadcrumbSchema([
+    { name: "Home", url: SITE_CONFIG.url },
+    { name: "Blog", url: `${SITE_CONFIG.url}/blog` },
+    { name: content.title, url: `${SITE_CONFIG.url}/blog/${post.slug}` },
+  ]);
+
   return (
     <div className="min-h-screen bg-cream">
-      {/* JSON-LD */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb) }} />
 
       {/* Top Bar */}
       <header className="bg-white border-b border-teal-pale py-4 px-6 sticky top-0 z-50">

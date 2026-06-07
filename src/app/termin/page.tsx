@@ -1,40 +1,46 @@
-"use client";
+import type { Metadata } from "next";
+import { SITE_CONFIG } from "@/config/site";
+import { buildBreadcrumbSchema, buildWebPageSchema } from "@/lib/schema";
+import TerminClient from "./TerminClient";
 
-import { useEffect } from "react";
+export const metadata: Metadata = {
+  title: "Online Termin buchen | Physiotherapie & Massage Basel — Gelenkwerk",
+  description:
+    "Jetzt bequem online Ihren Termin für Physiotherapie, Massage oder Lymphdrainage in Basel buchen. Praxis Gelenkwerk, Elisabethenstrasse 41, 4051 Basel.",
+  alternates: { canonical: `${SITE_CONFIG.url}/termin` },
+  openGraph: {
+    title: "Termin buchen — Gelenkwerk Physiotherapie Basel",
+    description:
+      "Online Terminbuchung für Physiotherapie, Massage & Lymphdrainage. Praxis Elisabethen, Basel.",
+    url: `${SITE_CONFIG.url}/termin`,
+    type: "website",
+  },
+};
 
 export default function TerminPage() {
-  useEffect(() => {
-    const handler = (event: MessageEvent) => {
-      if (!event.data) return;
-      try {
-        const data = JSON.parse(event.data);
-        const iframe = document.getElementById("t-booking") as HTMLIFrameElement | null;
-        if (data && iframe) {
-          iframe.style.height = data.height + "px";
-          window.scrollTo(0, 0);
-        }
-      } catch {
-        // ignore non-JSON messages
-      }
-    };
-
-    window.addEventListener("message", handler);
-    return () => window.removeEventListener("message", handler);
-  }, []);
+  const schemas = [
+    buildWebPageSchema({
+      url: `${SITE_CONFIG.url}/termin`,
+      name: "Online Termin buchen — Gelenkwerk Physiotherapie Basel",
+      description:
+        "Online-Terminbuchung für Physiotherapie, Massage und Lymphdrainage in der Praxis Gelenkwerk, Basel.",
+    }),
+    buildBreadcrumbSchema([
+      { name: "Home", url: SITE_CONFIG.url },
+      { name: "Termin buchen", url: `${SITE_CONFIG.url}/termin` },
+    ]),
+  ];
 
   return (
-    <main className="min-h-screen pt-24 pb-16 bg-cream">
-      <div className="max-w-3xl mx-auto px-4">
-        <h1 className="font-display text-3xl font-semibold text-brand-text mb-8 text-center">
-          Termin buchen
-        </h1>
-        <iframe
-          id="t-booking"
-          src="https://www.tbooking.ch/de/book/4743-6727?embedded=true&primary-color=9d5151&secondary-color=0274be"
-          style={{ width: "100%", minHeight: "700px", border: "none" }}
-          allow="camera *"
+    <>
+      {schemas.map((s, i) => (
+        <script
+          key={i}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(s) }}
         />
-      </div>
-    </main>
+      ))}
+      <TerminClient />
+    </>
   );
 }

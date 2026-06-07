@@ -1,0 +1,65 @@
+# Gelenkwerk Physiotherapie — Basel, Schweiz
+
+## Über diese Website
+
+Gelenkwerk ist eine physiotherapeutische Privatpraxis in Basel, Schweiz. Die Praxis befindet sich an der Elisabethenstrasse 41, 4051 Basel. Betreiberin und Therapeutin ist Kyriaki Chatzidimitriadou, diplomierte Physiotherapeutin mit Berufsausübungsbewilligung Basel-Stadt.
+
+## Leistungen
+
+### Physiotherapie (mit Krankenkassen-Abrechnung)
+- Physiotherapie Standard: ca. 25 Minuten, KVG/UVG/IV/MV-anerkannt, ärztliche Verordnung erforderlich
+- Physiotherapie aufwändig: ca. 40 Minuten, für komplexe Krankheitsbilder
+- Manuelle Lymphdrainage: ca. 30 Minuten, spezialisierte Entstauungstherapie
+
+### Massage (Privatleistungen, kein Rezept nötig)
+- Klassische Massage 30 Min.: CHF 77.00
+- Klassische Massage 45 Min.: CHF 114.50
+- Klassische Massage 60 Min.: CHF 152.00
+
+### Domizilbehandlung
+- Hausbesuche im Raum Basel möglich, Fahrkostenzuschlag CHF 40.00
+
+## Qualifikationen
+- Dipl. Physiotherapeutin (staatlich anerkannt)
+- Berufsausübungsbewilligung Basel-Stadt
+- Bobath-Weiterbildung (neurologische Rehabilitation)
+- Manuelle Lymphdrainage Zertifikat
+- Mitglied Physioswiss (Schweizerischer Physiotherapieverband)
+- Unternehmens-ID: CHE-261.683.274
+
+## Kontakt & Öffnungszeiten
+- Adresse: Elisabethenstrasse 41, 4051 Basel, Schweiz
+- Telefon: +41 61 220 50 00 / +41 76 624 58 50
+- E-Mail: info@gelenkwerk.ch
+- Montag–Freitag: 08:00–18:00 Uhr
+- Samstag: 09:00–14:00 Uhr
+- Sonntag: geschlossen
+
+## Versicherungen & Abrechnung
+- KVG (obligatorische Krankenpflegeversicherung) mit ärztlicher Verordnung
+- UVG (Unfallversicherung)
+- IV (Invalidenversicherung)
+- MV (Militärversicherung)
+- Anerkannt bei allen Schweizer Krankenkassen
+
+## Inhalte dieser Website
+
+### Blog-Artikel
+- /blog/rueckenschmerzen-physiotherapie-basel — Rückenschmerzen und Physiotherapie
+- /blog/manuelle-lymphdrainage-wirkung-anwendung — Lymphdrainage Wirkung und Ablauf
+- /blog/massage-mehr-als-entspannung-basel — Therapeutische Massage
+
+### Dienstleistungsseiten
+- /leistungen — Übersicht aller Leistungen
+- /leistungen/physiotherapie — Physiotherapie Basel
+- /leistungen/massage — Massage Basel
+- /leistungen/lymphdrainage — Lymphdrainage Basel
+
+### Weitere Seiten
+- /faq — Häufige Fragen
+- /about — Über Kyriaki Chatzidimitriadou
+- /termin — Online-Terminbuchung
+- /blog — Blog & Ratgeber
+
+## Standort
+Basel ist eine Schweizer Grenzstadt zu Deutschland und Frankreich. Die Praxis ist gut erreichbar per ÖV (Tram, Bus), direkt beim Bahnhof SBB Basel. NAP: Gelenkwerk Physiotherapie, Elisabethenstrasse 41, 4051 Basel, Schweiz, +41 61 220 50 00.
