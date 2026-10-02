@@ -134,8 +134,8 @@ export default function DatenschutzPage() {
           <p>
             Wenn Sie Fragen zu dieser Datenschutzerklärung oder zur Verarbeitung Ihrer
             personenbezogenen Daten haben, kontaktieren Sie uns bitte unter:{" "}
-            <a href="mailto:info@gelenkwerk.ch" className="text-teal hover:underline">
-              info@gelenkwerk.ch
+            <a href="mailto:gelenkwerkphysio@gmail.com" className="text-teal hover:underline">
+              gelenkwerkphysio@gmail.com
             </a>
           </p>
         </Section>
@@ -220,8 +220,8 @@ export default function DatenschutzPage() {
         <Section number="9" title="Kontakt">
           <p>
             Für Fragen oder Anliegen können Sie uns jederzeit unter folgender Adresse kontaktieren:{" "}
-            <a href="mailto:info@gelenkwerk.ch" className="text-teal hover:underline">
-              info@gelenkwerk.ch
+            <a href="mailto:gelenkwerkphysio@gmail.com" className="text-teal hover:underline">
+              gelenkwerkphysio@gmail.com
             </a>
           </p>
         </Section>

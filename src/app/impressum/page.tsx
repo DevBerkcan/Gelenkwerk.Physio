@@ -53,7 +53,7 @@ export default function ImpressumPage() {
           <h2 className="font-display text-[20px] text-brand-text mb-3">Kontakt</h2>
           <p className="text-brand-muted leading-7 text-[15px]">
             Telefon: <a href="tel:+41764621172" className="text-teal hover:underline">+41 76 462 11 72</a><br />
-            E-Mail: <a href="mailto:info@gelenkwerk.ch" className="text-teal hover:underline">info@gelenkwerk.ch</a><br />
+            E-Mail: <a href="mailto:gelenkwerkphysio@gmail.com" className="text-teal hover:underline">gelenkwerkphysio@gmail.com</a><br />
             Website: <a href="https://www.gelenkwerk.ch" className="text-teal hover:underline">www.gelenkwerk.ch</a>
           </p>
         </section>

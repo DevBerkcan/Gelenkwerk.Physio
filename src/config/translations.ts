@@ -178,7 +178,7 @@ export const translations = {
         },
         {
           q: "Wie kann ich einen Termin buchen?",
-          a: "Sie können online über unser Buchungssystem buchen, uns telefonisch unter +41 76 624 58 50 erreichen oder eine E-Mail an info@gelenkwerk.ch senden. Termine sind nach Vereinbarung möglich.",
+          a: "Sie können online über unser Buchungssystem buchen, uns telefonisch unter +41 76 624 58 50 erreichen oder eine E-Mail an gelenkwerkphysio@gmail.com senden. Termine sind nach Vereinbarung möglich.",
         },
       ],
     },
@@ -371,7 +371,7 @@ export const translations = {
         },
         {
           q: "How can I book an appointment?",
-          a: "You can book online via our booking system, call us at +41 76 624 58 50, or send an email to info@gelenkwerk.ch. Appointments are available by arrangement.",
+          a: "You can book online via our booking system, call us at +41 76 624 58 50, or send an email to gelenkwerkphysio@gmail.com. Appointments are available by arrangement.",
         },
       ],
     },

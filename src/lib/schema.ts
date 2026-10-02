@@ -59,7 +59,7 @@ export function buildPersonSchema() {
     url: `${BASE_URL}/about`,
     image: `${BASE_URL}/logoo_transparent.png`,
     telephone: CONTACT.phone[0],
-    email: "info@gelenkwerk.ch",
+    email: "gelenkwerkphysio@gmail.com",
     address: postalAddress,
     worksFor: {
       "@type": "MedicalBusiness",
@@ -124,7 +124,7 @@ export function buildOrganizationSchema() {
     },
     image: [`${BASE_URL}/logoo_transparent.png`, `${BASE_URL}/office.jpeg`],
     telephone: [CONTACT.phone[0], CONTACT.phone[1]],
-    email: "info@gelenkwerk.ch",
+    email: "gelenkwerkphysio@gmail.com",
     taxID: CONTACT.businessId,
     address: postalAddress,
     geo,
